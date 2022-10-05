@@ -2,7 +2,6 @@
 
 using namespace std;
 
-
 int minKey(int key[], bool mstSet[], int V){
 	int min = INT_MAX, min_index;
 	for (int v = 0; v < V; v++)
